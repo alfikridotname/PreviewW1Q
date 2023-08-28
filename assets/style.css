@@ -39,3 +39,36 @@ section p {
     text-align: justify;
     align-self: center;
 }
+
+/* Section Article Container */
+section .article-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Section Article */
+section .article-container article {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: justify;
+    align-self: center;
+    border: 1px solid #bcb5b5;
+}
+
+/* Section Article H2 */
+section .article-container article h2 {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    word-break: break-all;
+}
+
+/* Section Article P */
+section .article-container article p {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    word-break: break-all;
+}
