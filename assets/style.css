@@ -18,3 +18,13 @@ header nav a:hover {
     color: #00ff22;
     text-decoration: underline;
 }
+
+/* Section Img */
+section img {
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 200px;
+    box-shadow: 0px 0px 10px #000;
+    float: left;
+}
