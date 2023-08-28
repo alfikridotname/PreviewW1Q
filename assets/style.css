@@ -45,7 +45,7 @@ section p {
 section .article-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin: 50px;
 }
 
 /* Section Article */
@@ -54,7 +54,6 @@ section .article-container article {
     margin-right: 20px;
     margin-left: 20px;
     text-align: justify;
-    align-self: center;
     border: 1px solid #bcb5b5;
 }
 
