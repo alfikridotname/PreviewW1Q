@@ -30,6 +30,7 @@ section img {
     border-radius: 50%;
     width: 200px;
     box-shadow: 0px 0px 10px #000;
+    padding: 10px;
 }
 
 /* Section P */
@@ -71,4 +72,19 @@ section .article-container article p {
     margin-right: 20px;
     margin-left: 20px;
     word-break: break-all;
+}
+
+@media screen and (max-width: 768px) {
+    section .profile-container {
+        flex-direction: column;
+    }
+
+    section img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section .article-container {
+        margin: 0 auto;
+    }
 }
